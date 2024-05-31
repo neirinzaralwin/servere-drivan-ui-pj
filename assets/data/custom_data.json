@@ -1,0 +1,36 @@
+{
+    "type": "Scaffold",
+    "appBar": {
+      "type": "AppBar",
+      "title": {
+        "type": "Text",
+        "data": "Custom SDU"
+      },
+      "backgroundColor" : "#D1D8D5"
+    },
+    "body": {
+      "type": "Center",
+      "child": {
+        "type": "Column",
+        "mainAxisAlignment": "center",
+        "children": [
+          {
+            "type": "Text",
+            "data": "Hello, World!"
+          },
+          {
+            "type": "SizedBox",
+            "height": 20
+          },
+          {
+            "type": "ElevatedButton",
+            "onPressed": "onButtonPressed",
+            "child": {
+              "type": "Text",
+              "data": "Press Me"
+            }
+          }
+        ]
+      }
+    }
+  }
